@@ -1,0 +1,27 @@
+<h2 class="ticket-head">Your trips ({{userService.myBookings.length}})</h2>
+
+<div *ngFor="let booking of userService.myBookings" class="summary-wrap">
+  <span class="flight-city">
+    <i class="bi bi-airplane-engines-fill"></i>
+    <p>{{booking.flightData.flightdetails[0].from.city}} - {{booking.flightData.flightdetails[0].to.city}}</p>
+  </span>
+  <div class="journey-container">
+    <span class="flight-vendor">
+      <i class="bi bi-airplane"></i>
+      <p class="data-text">{{booking.flightData.flightdetails[0].airline}}</p>
+      <p class="data-text">{{booking.flightData.flightdetails[0].travelClass.value}}</p>
+    </span>
+    <span>
+      <p class="data-text">{{booking.flightData.flightdetails[0].dateOfFlight}}</p>
+      <p class="data-text-bold">{{booking.flightData.flightdetails[0].from.code}}
+        {{booking.flightData.flightdetails[0].departureTime}}</p>
+      <p class="data-text">{{booking.flightData.flightdetails[0].from.name}}</p>
+    </span>
+    <span>
+      <p class="data-text">{{booking.flightData.flightdetails[0].dateOfFlight}}</p>
+      <p class="data-text-bold">{{booking.flightData.flightdetails[0].to.code}}
+        {{booking.flightData.flightdetails[0].arrivalTime}}</p>
+      <p class="data-text">{{booking.flightData.flightdetails[0].to.name}}</p>
+    </span>
+  </div>
+</div>

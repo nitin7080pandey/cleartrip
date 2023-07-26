@@ -1,0 +1,67 @@
+<div class="summary-wrap">
+  <h3 class="ticket-head">TICKET DETAILS</h3>
+  <ng-container *ngFor="let book of booking.flightData.flightdetails">
+    <span class="flight-city">
+      <i class="bi bi-airplane-engines-fill"></i>
+      <p>{{book.from.city}} - {{book.to.city}}</p>
+    </span>
+    <div class="journey-container">
+      <span class="flight-vendor">
+        <i class="bi bi-airplane"></i>
+        <p class="data-text">{{book.airline}}</p>
+        <p class="data-text">{{book.travelClass.value}}</p>
+      </span>
+      <span>
+        <p class="data-text">{{book.dateOfFlight}}</p>
+        <p class="data-text-bold">{{book.from.code}} {{book.departureTime}}</p>
+        <p class="data-text">{{book.from.name}}</p>
+
+      </span>
+      <span>
+        <p class="data-text">{{book.arrivalTime}}</p>
+        <p class="data-text-bold">{{book.to.code}}</p>
+        <p class="data-text">{{book.to.name}}</p>
+      </span>
+    </div>
+  </ng-container>
+</div>
+<div class="select-wrap">
+  <h3 class="traveller-head">Traveller details</h3>
+  <div class="select-option-wrap">
+    <div (click)="addTraveller()" class="add-item">
+      <i class="bi bi-plus-circle"></i> Add traveller
+    </div>
+    <div class="form-group">
+      <label for="customerPhone">Contact number</label>
+      <input id="customerPhone" type="tel" [(ngModel)]="booking.customerPhone" placeholder="Contact number"
+        class="form-control input-control">
+    </div>
+    <div *ngFor="let val of booking.customerNames; let i = index" class="form-group cust-container">
+      <div class="cust-input">
+        <label>Traveller {{i+1}}</label>
+        <input type="text" [(ngModel)]="booking.customerNames[i]" placeholder="Traveller name" class="form-control">
+      </div>
+      <i (click)="deleteTraveller(val, i)" class="bi bi-trash3"></i>
+    </div>
+  </div>
+
+  <button type="submit" (click)="confirmBooking()" class="btn btn-default confirm-flight">Confirm Booking</button>
+</div>
+
+<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="exampleModalLabel">Your booking is confirmed !!</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h5>You can view your booking anytime in 'My bookings'</h5>
+      </div>
+      <div class="modal-footer">
+        <button type="button" (click)="saveSomeThing()" class="btn btn-secondary close-button" data-bs-dismiss="modal">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>

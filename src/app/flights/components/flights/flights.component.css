@@ -1,0 +1,131 @@
+.bi-airplane {
+    color: #e01111;
+}
+
+.select-wrap {
+    background: #EBFBFB;
+    width: 95%;
+    margin-left: 20px;
+    border-radius: 20px;
+    padding-bottom: 25px;
+    margin-top: 20px;
+
+    .trip-way {
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        height: 100px;
+    }
+
+    .select-option-wrap {
+        display: flex;
+
+        .form-group {
+            margin-left: 15px;
+            padding: 15px;
+        }
+
+    }
+
+    .traveller-option-wrap {
+        display: flex;
+
+        .form-group {
+            margin-left: 15px;
+            padding: 15px;
+        }
+    }
+
+
+}
+
+.search-flight {
+    border-radius: 20px;
+    background-color: #009999;
+    border-color: #009999;
+    width: 30%;
+    margin-left: 30%;
+    margin-top: -1%;
+}
+
+.head-display-container {
+    background: #EBFBFB;
+    width: 95%;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-top: 50px;
+    height: 50px;
+    padding: 10px 0px;
+
+    .header-wrap {
+        align-items: center;
+        display: flex;
+        list-style: none;
+        height: 50px;
+
+        .head {
+            width: 15%;
+        }
+
+    }
+}
+
+.flight-display-list {
+    background: #EBFBFB;
+    width: 95%;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+
+    .flight-container {
+        width: 80%;
+
+        .flight-list {
+            display: flex;
+            margin-left: 20px;
+
+            .flight-vendor {
+                display: flex;
+                font-weight: 700;
+                width: 10%;
+
+                .bi-airplane {
+                    padding-right: 10px;
+                }
+            }
+
+            .flight-ports {
+                display: flex;
+                justify-content: space-around;
+                width: 90%;
+
+                .flight-departure {
+                    width: 10%;
+                }
+
+                .flight-arrival {
+                    width: 10%;
+                }
+
+                .flight-seats {
+                    width: 10%;
+                }
+
+                .flight-price {
+                    width: 15%;
+                }
+            }
+        }
+    }
+
+    .book-flight {
+        border-radius: 5px;
+        background-color: #009999;
+        border-color: #009999;
+        width: 14%;
+        margin-top: -1%;
+        height: 40px;
+    }
+}

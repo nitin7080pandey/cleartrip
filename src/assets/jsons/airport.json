@@ -1,0 +1,764 @@
+[
+    {
+        "airportSrId": 1,
+        "airportCode": "CCJ",
+        "airportName": "Calicut International Airport",
+        "airportCity": "Calicut"
+    },
+    {
+        "airportSrId": 2,
+        "airportCode": "MAA",
+        "airportName": "Chennai International Airport",
+        "airportCity": "Chennai"
+    },
+    {
+        "airportSrId": 3,
+        "airportCode": "BOM",
+        "airportName": "Mumbai International Airport",
+        "airportCity": "Mumbai"
+    },
+    {
+        "airportSrId": 4,
+        "airportCode": "COK",
+        "airportName": "Cochin International Airport",
+        "airportCity": "Kochi"
+    },
+    {
+        "airportSrId": 5,
+        "airportCode": "GOI",
+        "airportName": "Dabolim Airport",
+        "airportCity": "Vasco da Gama"
+    },
+    {
+        "airportSrId": 6,
+        "airportCode": "DEL",
+        "airportName": "Indira Gandhi International Airport",
+        "airportCity": "New Delhi"
+    },
+    {
+        "airportSrId": 7,
+        "airportCode": "BLR",
+        "airportName": "Kempegowda International Airport",
+        "airportCity": "Bangalore"
+    },
+    {
+        "airportSrId": 8,
+        "airportCode": "CCU",
+        "airportName": "Netaji Subhash Chandra Bose International Airport",
+        "airportCity": "Kolkata"
+    },
+    {
+        "airportSrId": 9,
+        "airportCode": "HYD",
+        "airportName": "Rajiv Gandhi International Airport",
+        "airportCity": "Hyderabad"
+    },
+    {
+        "airportSrId": 10,
+        "airportCode": "ATQ",
+        "airportName": "Sri Guru Ram Dass Jee International Airport",
+        "airportCity": "Amritsar"
+    },
+    {
+        "airportSrId": 11,
+        "airportCode": "TRV",
+        "airportName": "Trivandrum International Airport",
+        "airportCity": "Thiruvananthapuram"
+    },
+    {
+        "airportSrId": 12,
+        "airportCode": "IXA",
+        "airportName": "Agartala Airport",
+        "airportCity": "Agartala"
+    },
+    {
+        "airportSrId": 13,
+        "airportCode": "AGX",
+        "airportName": "Agatti Airport",
+        "airportCity": "Agatti"
+    },
+    {
+        "airportSrId": 14,
+        "airportCode": "AGR",
+        "airportName": "Agra Airport",
+        "airportCity": "Agra"
+    },
+    {
+        "airportSrId": 15,
+        "airportCode": "AKD",
+        "airportName": "Akola Airport",
+        "airportCity": "Akola"
+    },
+    {
+        "airportSrId": 16,
+        "airportCode": "IXD",
+        "airportName": "Allahabad Airport",
+        "airportCity": "Allahabad"
+    },
+    {
+        "airportSrId": 17,
+        "airportCode": "IXV",
+        "airportName": "Along Airport",
+        "airportCity": "Arunachal Pradesh"
+    },
+    {
+        "airportSrId": 18,
+        "airportCode": "HGI",
+        "airportName": "Donyi Polo Airport",
+        "airportCity": "Itanagar"
+    },
+    {
+        "airportSrId": 19,
+        "airportCode": "IXU",
+        "airportName": "Aurangabad Airport",
+        "airportCity": "Aurangabad"
+    },
+    {
+        "airportSrId": 20,
+        "airportCode": "IXB",
+        "airportName": "Bagdogra Airport",
+        "airportCity": "Siliguri"
+    },
+    {
+        "airportSrId": 21,
+        "airportCode": "BEK",
+        "airportName": "Bareilly Air Force Station",
+        "airportCity": "Bareilly"
+    },
+    {
+        "airportSrId": 22,
+        "airportCode": "BPM",
+        "airportName": "Begumpet Airport",
+        "airportCity": "Hyderabad"
+    },
+    {
+        "airportSrId": 23,
+        "airportCode": "IXG",
+        "airportName": "Belgaum Airport",
+        "airportCity": "Belgaum"
+    },
+    {
+        "airportSrId": 24,
+        "airportCode": "BEP",
+        "airportName": "Bellary Airport",
+        "airportCity": "Bellary"
+    },
+    {
+        "airportSrId": 25,
+        "airportCode": "BUP",
+        "airportName": "Bathinda Airport",
+        "airportCity": "Bathinda"
+    },
+    {
+        "airportSrId": 26,
+        "airportCode": "BHU",
+        "airportName": "Bhavnagar Airport",
+        "airportCity": "Bhavnagar"
+    },
+    {
+        "airportSrId": 27,
+        "airportCode": "BHJ",
+        "airportName": "Bhuj Airport",
+        "airportCity": "Bhuj"
+    },
+    {
+        "airportSrId": 28,
+        "airportCode": "BBI",
+        "airportName": "Biju Patnaik Airport",
+        "airportCity": "Bhubaneswar"
+    },
+    {
+        "airportSrId": 29,
+        "airportCode": "PAB",
+        "airportName": "Bilaspur Airport",
+        "airportCity": "Bilaspur"
+    },
+    {
+        "airportSrId": 30,
+        "airportCode": "IXR",
+        "airportName": "Birsa Munda Airport",
+        "airportCity": "Ranchi"
+    },
+    {
+        "airportSrId": 31,
+        "airportCode": "CBD",
+        "airportName": "Car Nicobar Air Force Station",
+        "airportCity": "Car Nicobar"
+    },
+    {
+        "airportSrId": 32,
+        "airportCode": "IXC",
+        "airportName": "Chandigarh Airport",
+        "airportCity": "Chandigarh"
+    },
+    {
+        "airportSrId": 33,
+        "airportCode": "LKO",
+        "airportName": "Chaudhary Charan Singh International Airport",
+        "airportCity": "Lucknow"
+    },
+    {
+        "airportSrId": 34,
+        "airportCode": "CJB",
+        "airportName": "Coimbatore International Airport",
+        "airportCity": "Coimbatore"
+    },
+    {
+        "airportSrId": 35,
+        "airportCode": "NMB",
+        "airportName": "Daman Airport",
+        "airportCity": "Daman and Diu"
+    },
+    {
+        "airportSrId": 36,
+        "airportCode": "DED",
+        "airportName": "Dehradun Airport",
+        "airportCity": "Dehradun"
+    },
+    {
+        "airportSrId": 37,
+        "airportCode": "IDR",
+        "airportName": "Devi Ahilyabai Holkar Airport",
+        "airportCity": "Indore"
+    },
+    {
+        "airportSrId": 38,
+        "airportCode": "DBD",
+        "airportName": "Dhanbad Airport",
+        "airportCity": "Dhanbad"
+    },
+    {
+        "airportSrId": 39,
+        "airportCode": "DIB",
+        "airportName": "Dibrugarh Airport",
+        "airportCity": "Dibrugarh"
+    },
+    {
+        "airportSrId": 40,
+        "airportCode": "DMU",
+        "airportName": "Dimapur Airport",
+        "airportCity": "Dimapur"
+    },
+    {
+        "airportSrId": 41,
+        "airportCode": "NAG",
+        "airportName": "Dr. Babasaheb Ambedkar International Airport",
+        "airportCity": "Naqpur"
+    },
+    {
+        "airportSrId": 42,
+        "airportCode": "GAY",
+        "airportName": "Gaya Airport",
+        "airportCity": "Bihar"
+    },
+    {
+        "airportSrId": 43,
+        "airportCode": "GOP",
+        "airportName": "Gorakhpur Airport",
+        "airportCity": "Gorakhpur"
+    },
+    {
+        "airportSrId": 44,
+        "airportCode": "GWL",
+        "airportName": "Gwalior Airport",
+        "airportCity": "Gwalior"
+    },
+    {
+        "airportSrId": 45,
+        "airportCode": "HSS",
+        "airportName": "Hisar Airport",
+        "airportCity": "Haryana"
+    },
+    {
+        "airportSrId": 46,
+        "airportCode": "HBX",
+        "airportName": "Hubli Airport",
+        "airportCity": "Hubli"
+    },
+    {
+        "airportSrId": 47,
+        "airportCode": "IMF",
+        "airportName": "Imphal Airport",
+        "airportCity": "Imphal"
+    },
+    {
+        "airportSrId": 48,
+        "airportCode": "JLR",
+        "airportName": "Jabalpur Airport",
+        "airportCity": "Madhya Pradesh"
+    },
+    {
+        "airportSrId": 49,
+        "airportCode": "JAI",
+        "airportName": "Jaipur International Airport",
+        "airportCity": "Jaipur"
+    },
+    {
+        "airportSrId": 50,
+        "airportCode": "IXJ",
+        "airportName": "Jammu Airport",
+        "airportCity": "Jammu"
+    },
+    {
+        "airportSrId": 51,
+        "airportCode": "JGA",
+        "airportName": "Jamnagar Airport",
+        "airportCity": "Jamnagar"
+    },
+    {
+        "airportSrId": 52,
+        "airportCode": "JDH",
+        "airportName": "Jodhpur Airport",
+        "airportCity": "Jodhpur"
+    },
+    {
+        "airportSrId": 53,
+        "airportCode": "JRH",
+        "airportName": "Jorhat Airport",
+        "airportCity": "Jorhat"
+    },
+    {
+        "airportSrId": 54,
+        "airportCode": "CDP",
+        "airportName": "Kadapa Airport",
+        "airportCity": "Kadapa"
+    },
+    {
+        "airportSrId": 55,
+        "airportCode": "IXH",
+        "airportName": "Kailashahar Airport",
+        "airportCity": "Kailashahar"
+    },
+    {
+        "airportSrId": 56,
+        "airportCode": "IXY",
+        "airportName": "Kandla Airport",
+        "airportCity": "Kandla"
+    },
+    {
+        "airportSrId": 57,
+        "airportCode": "DHM",
+        "airportName": "Kangra Airport",
+        "airportCity": "Kangra"
+    },
+    {
+        "airportSrId": 58,
+        "airportCode": "CNN",
+        "airportName": "Kannur International Airport",
+        "airportCity": "Kannur"
+    },
+    {
+        "airportSrId": 59,
+        "airportCode": "KNU",
+        "airportName": "Kanpur Airport",
+        "airportCity": "Kanpur"
+    },
+    {
+        "airportSrId": 60,
+        "airportCode": "RDP",
+        "airportName": "Kazi Nazrul Islam Airport",
+        "airportCity": "Durgapur"
+    },
+    {
+        "airportSrId": 61,
+        "airportCode": "IXK",
+        "airportName": "Keshod Airport",
+        "airportCity": "Keshod"
+    },
+    {
+        "airportSrId": 62,
+        "airportCode": "HJR",
+        "airportName": "Khajuraho Airport",
+        "airportCity": "Khajuraho"
+    },
+    {
+        "airportSrId": 63,
+        "airportCode": "KQH",
+        "airportName": "Kishangarh Airport",
+        "airportCity": "Ajmer"
+    },
+    {
+        "airportSrId": 64,
+        "airportCode": "KLH",
+        "airportName": "Kolhapur Airport",
+        "airportCity": "Maharashtra"
+    },
+    {
+        "airportSrId": 65,
+        "airportCode": "KTU",
+        "airportName": "Kota Airport",
+        "airportCity": "Kota"
+    },
+    {
+        "airportSrId": 66,
+        "airportCode": "KUU",
+        "airportName": "Kullu–Manali Airport",
+        "airportCity": "Bhuntar"
+    },
+    {
+        "airportSrId": 67,
+        "airportCode": "VNS",
+        "airportName": "Lal Bahadur Shastri Airport",
+        "airportCity": "Varanasi"
+    },
+    {
+        "airportSrId": 68,
+        "airportCode": "IXL",
+        "airportName": "Leh Kushok Bakula Rimpochee Airport",
+        "airportCity": "Leh"
+    },
+    {
+        "airportSrId": 69,
+        "airportCode": "AJL",
+        "airportName": "Lengpui Airport",
+        "airportCity": "Aizawl"
+    },
+    {
+        "airportSrId": 70,
+        "airportCode": "PAT",
+        "airportName": "Lok Nayak Jayaprakash Airport",
+        "airportCity": "Patna"
+    },
+    {
+        "airportSrId": 71,
+        "airportCode": "GAU",
+        "airportName": "Lokpriya Gopinath Bordoloi International Airport",
+        "airportCity": "Guwahati"
+    },
+    {
+        "airportSrId": 72,
+        "airportCode": "LUH",
+        "airportName": "Sahnewal Airport",
+        "airportCity": "Ludhiana"
+    },
+    {
+        "airportSrId": 73,
+        "airportCode": "IXM",
+        "airportName": "Madurai Airport",
+        "airportCity": "Madurai"
+    },
+    {
+        "airportSrId": 74,
+        "airportCode": "UDR",
+        "airportName": "Maharana Pratap Airport",
+        "airportCity": "Udaipur"
+    },
+    {
+        "airportSrId": 75,
+        "airportCode": "IXE",
+        "airportName": "Mangalore International Airport",
+        "airportCity": "Mangalore"
+    },
+    {
+        "airportSrId": 76,
+        "airportCode": "LTU",
+        "airportName": "Murod Kond Airport",
+        "airportCity": "Latur"
+    },
+    {
+        "airportSrId": 77,
+        "airportCode": "MZU",
+        "airportName": "Muzaffarpur Airport",
+        "airportCity": "Muzaffarpur"
+    },
+    {
+        "airportSrId": 78,
+        "airportCode": "BKB",
+        "airportName": "Nal Airport",
+        "airportCity": "Bikaner"
+    },
+    {
+        "airportSrId": 79,
+        "airportCode": "NDC",
+        "airportName": "Nanded Airport",
+        "airportCity": "Nanded"
+    },
+    {
+        "airportSrId": 80,
+        "airportCode": "ISK",
+        "airportName": "Nashik Airport",
+        "airportCity": "Nasik"
+    },
+    {
+        "airportSrId": 81,
+        "airportCode": "IXI",
+        "airportName": "North Lakhimpur Airport",
+        "airportCity": "Lilabari"
+    },
+    {
+        "airportSrId": 82,
+        "airportCode": "PGH",
+        "airportName": "Pantnagar Airport",
+        "airportCity": "Pantnagar"
+    },
+    {
+        "airportSrId": 83,
+        "airportCode": "IXP",
+        "airportName": "Pathankot Airport",
+        "airportCity": "Pathankot"
+    },
+    {
+        "airportSrId": 84,
+        "airportCode": "PNY",
+        "airportName": "Pondicherry Airport",
+        "airportCity": "Pondicherry"
+    },
+    {
+        "airportSrId": 85,
+        "airportCode": "PBD",
+        "airportName": "Porbandar Airport",
+        "airportCity": "Porbandar"
+    },
+    {
+        "airportSrId": 86,
+        "airportCode": "PNQ",
+        "airportName": "Pune Airport",
+        "airportCity": "Pune"
+    },
+    {
+        "airportSrId": 87,
+        "airportCode": "BHO",
+        "airportName": "Raja Bhoj International Airport",
+        "airportCity": "Bhopal"
+    },
+    {
+        "airportSrId": 88,
+        "airportCode": "RJA",
+        "airportName": "Rajahmundry Airport",
+        "airportCity": "Rajahmundry"
+    },
+    {
+        "airportSrId": 89,
+        "airportCode": "RAJ",
+        "airportName": "Rajkot Airport",
+        "airportCity": "Rajkot"
+    },
+    {
+        "airportSrId": 90,
+        "airportCode": "RTC",
+        "airportName": "Ratnagiri Airport",
+        "airportCity": "Ratnagiri"
+    },
+    {
+        "airportSrId": 91,
+        "airportCode": "REW",
+        "airportName": "Rewa Airport, Chorhata, REWA",
+        "airportCity": "Rewa"
+    },
+    {
+        "airportSrId": 92,
+        "airportCode": "RRK",
+        "airportName": "Rourkela Airport",
+        "airportCity": "Rourkela"
+    },
+    {
+        "airportSrId": 93,
+        "airportCode": "SXV",
+        "airportName": "Salem Airport",
+        "airportCity": "Salem"
+    },
+    {
+        "airportSrId": 94,
+        "airportCode": "AMD",
+        "airportName": "Sardar Vallabhbhai Patel International Airport",
+        "airportCity": "Ahmedabad"
+    },
+    {
+        "airportSrId": 95,
+        "airportCode": "SXR",
+        "airportName": "Sheikh ul Alam Airport",
+        "airportCity": "Srinagar"
+    },
+    {
+        "airportSrId": 96,
+        "airportCode": "SHL",
+        "airportName": "Shillong Airport",
+        "airportCity": "Shillong"
+    },
+    {
+        "airportSrId": 97,
+        "airportCode": "SAG",
+        "airportName": "Shirdi Airport",
+        "airportCity": "Shirdi"
+    },
+    {
+        "airportSrId": 98,
+        "airportCode": "IXS",
+        "airportName": "Silchar Airport",
+        "airportCity": "Silchar"
+    },
+    {
+        "airportSrId": 99,
+        "airportCode": "SSE",
+        "airportName": "Solapur Airport",
+        "airportCity": "Solapur"
+    },
+    {
+        "airportSrId": 100,
+        "airportCode": "IXW",
+        "airportName": "Sonari Airport",
+        "airportCity": "Jamshedpur"
+    },
+    {
+        "airportSrId": 101,
+        "airportCode": "PUT",
+        "airportName": "Sri Sathya Sai Airport",
+        "airportCity": "Puttaparthi"
+    },
+    {
+        "airportSrId": 102,
+        "airportCode": "STV",
+        "airportName": "Surat Airport",
+        "airportCity": "Surat"
+    },
+    {
+        "airportSrId": 103,
+        "airportCode": "TEZ",
+        "airportName": "Tezpur Airport",
+        "airportCity": "Tezpur"
+    },
+    {
+        "airportSrId": 104,
+        "airportCode": "TRZ",
+        "airportName": "Tiruchirapally Civil Airport Airport",
+        "airportCity": "Tiruchirappally"
+    },
+    {
+        "airportSrId": 105,
+        "airportCode": "BDQ",
+        "airportName": "Vadodara Airport",
+        "airportCity": "Vadodara"
+    },
+    {
+        "airportSrId": 106,
+        "airportCode": "VGA",
+        "airportName": "Vijayawada Airport",
+        "airportCity": "Andhra Pradesh"
+    },
+    {
+        "airportSrId": 107,
+        "airportCode": "IXZ",
+        "airportName": "Vir Savarkar International Airport",
+        "airportCity": "Port Blair"
+    },
+    {
+        "airportSrId": 108,
+        "airportCode": "ZER",
+        "airportName": "Ziro Airport",
+        "airportCity": "Ziro"
+    },
+    {
+        "airportSrId": 109,
+        "airportCode": "AIP",
+        "airportName": "Adampur Airport",
+        "airportCity": "Adampur"
+    },
+    {
+        "airportSrId": 110,
+        "airportCode": "RGH",
+        "airportName": "Balurghat Airport",
+        "airportCity": "Balurghat"
+    },
+    {
+        "airportSrId": 111,
+        "airportCode": "RMD",
+        "airportName": "Basanth Nagar Airport",
+        "airportCity": "Ramagundam"
+    },
+    {
+        "airportSrId": 112,
+        "airportCode": "RMD",
+        "airportName": "Basanth Nagar Airport",
+        "airportCity": "Ramagundam"
+    },
+    {
+        "airportSrId": 113,
+        "airportCode": "DEP",
+        "airportName": "Daporijo Airport",
+        "airportCity": "Daporijo"
+    },
+    {
+        "airportSrId": 114,
+        "airportCode": "DIU",
+        "airportName": "Diu Airport",
+        "airportCity": "Diu"
+    },
+    {
+        "airportSrId": 115,
+        "airportCode": "PYB",
+        "airportName": "Jeypore Airport",
+        "airportCity": "Jeypore"
+    },
+    {
+        "airportSrId": 116,
+        "airportCode": "IXN",
+        "airportName": "Khowai Airport",
+        "airportCity": "Khowai"
+    },
+    {
+        "airportSrId": 117,
+        "airportCode": "LDA",
+        "airportName": "Malda Airport",
+        "airportCity": "Malda"
+    },
+    {
+        "airportSrId": 118,
+        "airportCode": "MYQ",
+        "airportName": "Mysore Airport",
+        "airportCity": "Mysore"
+    },
+    {
+        "airportSrId": 119,
+        "airportCode": "NVY",
+        "airportName": "Neyveli Airport",
+        "airportCity": "Neyveli"
+    },
+    {
+        "airportSrId": 120,
+        "airportCode": "IXT",
+        "airportName": "Pasighat Airport",
+        "airportCity": "Pasighat"
+    },
+    {
+        "airportSrId": 121,
+        "airportCode": "RPR",
+        "airportName": "Raipur Airport",
+        "airportCity": "Raipur"
+    },
+    {
+        "airportSrId": 122,
+        "airportCode": "TJV",
+        "airportName": "Tanjore Air Force Base",
+        "airportCity": "Thanjavur"
+    },
+    {
+        "airportSrId": 123,
+        "airportCode": "TEI",
+        "airportName": "Tezu Airport",
+        "airportCity": "Tezu"
+    },
+    {
+        "airportSrId": 124,
+        "airportCode": "TIR",
+        "airportName": "Tirupati Airport",
+        "airportCity": "Tirupati"
+    },
+    {
+        "airportSrId": 125,
+        "airportCode": "TCR",
+        "airportName": "Tuticorin Airport",
+        "airportCity": "Thoothukudi"
+    },
+    {
+        "airportSrId": 126,
+        "airportCode": "VTZ",
+        "airportName": "Vishakhapatnam Airport",
+        "airportCity": "Visakhapatnam"
+    },
+    {
+        "airportSrId": 127,
+        "airportCode": "WGC",
+        "airportName": "Warangal Airport",
+        "airportCity": "Warangal"
+    }
+]

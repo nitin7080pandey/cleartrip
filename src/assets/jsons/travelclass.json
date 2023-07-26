@@ -1,0 +1,14 @@
+[
+    {
+        "airportSrId": "Y",
+        "className": "Economy"
+    },
+    {
+        "airportSrId": "L",
+        "className": "Premium Economy"
+    },
+    {
+        "airportSrId": "B",
+        "className": "Business"
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "flightNumber": "GA1522",
+        "airline": " GoAir",
+        "departureAirportCode": "BLR",
+        "departureTime": "7:45PM",
+        "arrivalAirportCode": "BOM",
+        "arrivalTime": "11:43PM",
+        "amount": 500,
+        "numberOfPassengers": 2,
+        "travelClass": "Y",
+        "dateOfFlight": "2023-06-14",
+        "customerName": null,
+        "customerPhone": null,
+        "userID": null,
+        "availableSeats": 124,
+        "connectedFlight": null
+    },
+    {
+        "flightNumber": "KF3472",
+        "airline": " KingFisher",
+        "departureAirportCode": "BLR",
+        "departureTime": "6:45PM",
+        "arrivalAirportCode": "HYD",
+        "arrivalTime": "10:43PM",
+        "amount": 300,
+        "numberOfPassengers": 2,
+        "travelClass": "Y",
+        "dateOfFlight": "2023-06-14",
+        "customerName": null,
+        "customerPhone": null,
+        "userID": null,
+        "availableSeats": 180,
+        "connectedFlight": {
+            "flightNumber": "KF3472",
+            "airline": " KingFisher",
+            "departureAirportCode": "HYD",
+            "departureTime": "11:00PM",
+            "arrivalAirportCode": "BOM",
+            "arrivalTime": "1:00AM",
+            "amount": 300,
+            "numberOfPassengers": 2,
+            "travelClass": "Y",
+            "dateOfFlight": "2023-06-14",
+            "customerName": null,
+            "customerPhone": null,
+            "userID": null,
+            "availableSeats": 180,
+            "connectedFlight": null
+        }
+    }
+]

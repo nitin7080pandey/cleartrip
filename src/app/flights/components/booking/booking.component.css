@@ -1,0 +1,236 @@
+.user-info {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+.bi-airplane {
+    color: #e01111;
+}
+
+
+.summary-wrap {
+    margin-top: 20px;
+    background: #EBFBFB;
+    width: 95%;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+
+    .ticket-head {
+        color: #50BEBE;
+    }
+
+    .flight-city {
+        display: flex;
+        margin-left: 20px;
+        font-size: 20px;
+        font-weight: 400;
+
+        .bi-airplane-engines-fill {
+            color: #0099cb;
+            padding-right: 5px;
+        }
+    }
+
+
+    .journey-container {
+        display: flex;
+        width: 80%;
+        justify-content: space-around;
+        color: #8e93ab;
+        text-align: center;
+        align-items: center;
+        background: #0dcaf030;
+        margin-left: 10%;
+
+
+        .data-text {
+            margin-bottom: 0px;
+        }
+
+        .data-text-bold {
+            color: black;
+            font-weight: 400;
+            margin-bottom: 0px;
+        }
+    }
+}
+
+.select-wrap {
+    background: #EBFBFB;
+    width: 95%;
+    margin-left: 20px;
+    border-radius: 20px;
+    padding-bottom: 100px;
+
+    .traveller-head {
+        color: #50BEBE;
+    }
+
+    .trip-way {
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        height: 100px;
+    }
+
+    .select-option-wrap {
+        .add-item {
+            display: flex;
+            text-align: end;
+            justify-content: flex-end;
+            margin-right: 20%;
+            padding-top: 20px;
+            color: #0099cb;
+            font-weight: bold;
+
+            .bi-plus-circle {
+                padding-right: 5px;
+            }
+        }
+
+        .form-group {
+            margin-left: 15px;
+            margin-bottom: 15px;
+
+            .input-control {
+                width: 50% !important;
+
+            }
+
+            .bi-trash3 {
+                color: red;
+                padding-left: 5px;
+            }
+        }
+
+        .cust-container {
+            display: flex;
+            align-items: center;
+
+            .cust-input {
+                width: 50%;
+            }
+        }
+
+    }
+
+    .traveller-option-wrap {
+        display: flex;
+
+        .form-group {
+            margin-left: 15px;
+            /* .form-select {
+                width: 40% !important;
+            } */
+        }
+    }
+
+    .confirm-flight {
+        border-radius: 5px;
+        background-color: #009999;
+        border-color: #009999;
+        margin-top: 3%;
+        height: 40px;
+        position: absolute;
+        left: 38%;
+    }
+
+
+}
+
+.search-flight {
+    border-radius: 20px;
+    background-color: #009999;
+    border-color: #009999;
+    width: 30%;
+    margin-left: 30%;
+    margin-top: -1%;
+    /* width: 100%; */
+    /* margin-top: 20%; */
+}
+
+.head-display-container {
+    background: #EBFBFB;
+    width: 95%;
+    margin-left: 20px;
+    border-radius: 20px;
+    /* padding-bottom: 25px; */
+    margin-top: 50px;
+    height: 50px;
+    padding: 10px 0px;
+
+    .header-wrap {
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+        list-style: none;
+        height: 50px;
+
+        .head {
+            width: 20%;
+        }
+
+    }
+}
+
+.flight-display-list {
+    background: #EBFBFB;
+    width: 95%;
+    margin-left: 20px;
+    border-radius: 20px;
+    /* padding-bottom: 25px; */
+    margin-top: 50px;
+
+    .flight-vendor {
+        display: flex;
+        margin-left: 20px;
+        font-weight: 700;
+
+        .bi-airplane {
+            padding-right: 10px;
+        }
+    }
+
+    .flight-ports {
+        display: flex;
+        justify-content: space-around;
+
+        .book-flight {
+            border-radius: 5px;
+            background-color: #009999;
+            border-color: #009999;
+            width: 14%;
+            /* margin-left: 30%; */
+            margin-top: -1%;
+            height: 40px;
+        }
+    }
+}
+
+.modal-content {
+    background: #EBFBFB;
+    border: none;
+
+    .modal-header {
+        border: none;
+
+        .modal-title {
+            color: #50BEBE;
+        }
+    }
+
+    .close-button {
+        border-radius: 5px;
+        background-color: #009999;
+        border-color: #009999;
+    }
+}

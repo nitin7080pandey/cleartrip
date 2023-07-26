@@ -1,0 +1,93 @@
+<div class="select-wrap">
+  <div class="select-option-wrap">
+    <div class="form-group">
+      <label for="from">From</label>
+      <select id="from" class="form-select" [(ngModel)]="flightSearchParam.from.code" aria-label="From">
+        <option *ngFor="let option of masterDataService.airportList" [value]="option.code">{{option.city}}</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="destination">To</label>
+      <select id="destination" class="form-select" [(ngModel)]="flightSearchParam.to.code" aria-label="To">
+        <option *ngFor="let option of masterDataService.airportList" [value]="option.code">{{option.city}}</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="departure">Departure</label>
+      <input id="departure" type="date" placeholder="Departure" class="form-control" bsDatepicker
+        [(ngModel)]="flightSearchParam.dateOfFlight">
+    </div>
+
+
+  </div>
+  <div class="traveller-option-wrap">
+    <div class="form-group">
+      <label for="return">Travellers</label>
+      <input id="return" type="number" min="0" [(ngModel)]="flightSearchParam.passengerCount" placeholder="Travellers"
+        class="form-control">
+    </div>
+    <div class="form-group">
+      <label for="travel-class">Travel class</label>
+      <select id="travel-class" [(ngModel)]="flightSearchParam.travelClass.id" class="form-select"
+        aria-label="travel-class">
+        <option *ngFor="let option of masterDataService.travelClassList" [value]="option.id">{{option.value}}</option>
+      </select>
+    </div>
+  </div>
+</div>
+
+<button type="submit" (click)="searchFlights()" class="search-flight btn btn-default"> <i
+    class="bi bi-airplane-engines-fill"></i>
+  Search
+  Flights</button>
+
+<div *ngIf="flightService.flightSearchResult && flightService.flightSearchResult.length>0"
+  class="head-display-container">
+  <ul class="header-wrap">
+    <li class="head"></li>
+    <li class="head">Departure</li>
+    <li class="head">Arrival</li>
+    <li class="head">Available Seats</li>
+    <li class="head">Price</li>
+  </ul>
+</div>
+
+
+<div *ngFor="let flightDetailObj of flightService.flightSearchResult" class="flight-display-list">
+  <div class="flight-container">
+    <div class="flight-list" *ngFor="let data of flightDetailObj.flightdetails">
+      <span class="flight-vendor">
+        <i class="bi bi-airplane"></i>
+        <p>{{data.airline}}</p>
+      </span>
+      <div class="flight-ports">
+        <span class="flight-departure">
+          <p>{{data.from.city}}</p>
+          <p class="sub-val fw-bold">{{data.departureTime}}</p>
+        </span>
+
+        <span class="flight-arrival">
+          <p>{{data.to.city}}</p>
+          <p class="fw-bold">{{data.arrivalTime}}</p>
+        </span>
+        <span class="flight-seats">
+          <p></p>
+          <p class="fw-bold">{{data.availableSeats}}</p>
+        </span>
+
+        <span class="flight-price">
+          <p></p>
+          <p class="fw-bold"> {{data.price | currency:"&#8377;"}}</p>
+        </span>
+
+        <!-- <p class="fw-bold">
+          Rs. {{data.price | currency:"&#8377;"}}
+        </p> -->
+
+      </div>
+
+    </div>
+  </div>
+  <button type="submit" (click)="bookFlight(flightDetailObj)" class="btn btn-default book-flight">Book</button>
+
+</div>

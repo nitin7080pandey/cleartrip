@@ -1,0 +1,20 @@
+[
+    {
+        "id": "INDI345",
+        "name": "Abhsihek Baral",
+        "email": "abhishekbaral@gmail.com",
+        "psswd": "****bala***",
+        "bookingList": [
+            {
+                "bookingId": 1,
+                "flightNumber": "IN560",
+                "legNumber": "1",
+                "dateOfFlight": "2023-05-27T18:30:00.000+00:00",
+                "seatNumber": 1,
+                "customerName": "Abhishek Baral",
+                "customerPhone": "9439408040",
+                "userId": "INDI345"
+            }
+        ]
+    }
+]

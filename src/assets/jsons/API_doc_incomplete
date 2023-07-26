@@ -1,0 +1,203 @@
+api doc
+
+1.Api Get Airport
+
+url- http://localhost:1995/cleartravel.com/airport
+method-get
+response-
+[
+    {
+        "airportSrId": 1,
+        "airportCode": "CCJ",
+        "airportName": "Calicut International Airport",
+        "airportCity": "Calicut"
+    },
+    {
+        "airportSrId": 2,
+        "airportCode": "MAA",
+        "airportName": "Chennai International Airport",
+        "airportCity": "Chennai"
+    },
+    {
+        "airportSrId": 3,
+        "airportCode": "BOM",
+        "airportName": "Mumbai International Airport",
+        "airportCity": "Mumbai"
+    },
+    {
+        "airportSrId": 4,
+        "airportCode": "COK",
+        "airportName": "Cochin International Airport",
+        "airportCity": "Kochi"
+    },
+    {
+        "airportSrId": 5,
+        "airportCode": "GOI",
+        "airportName": "Dabolim Airport",
+        "airportCity": "Vasco da Gama"
+    },
+    {
+        "airportSrId": 6,
+        "airportCode": "DEL",
+        "airportName": "Indira Gandhi International Airport",
+        "airportCity": "New Delhi"
+    },
+    {
+        "airportSrId": 7,
+        "airportCode": "BLR",
+        "airportName": "Kempegowda International Airport",
+        "airportCity": "Bangalore"
+    },
+    {
+        "airportSrId": 8,
+        "airportCode": "CCU",
+        "airportName": "Netaji Subhash Chandra Bose International Airport",
+        "airportCity": "Kolkata"
+    },
+    {
+        "airportSrId": 9,
+        "airportCode": "HYD",
+        "airportName": "Rajiv Gandhi International Airport",
+        "airportCity": "Hyderabad"
+    }
+]
+
+
+
+2. api for fetching flight details for particular course
+
+url- http://localhost:1995/cleartravel.com/flightdetails
+
+method-get
+
+body- 
+{
+    "arrivalAirportCode":"IXL",
+    "departureAirportCode" :"MAA",
+    "dateOfFlight": "2023-05-28",
+    "numberOfPassengers": 2,
+    "travelClass":"Y"
+}
+
+response- 
+[
+    {
+        "flightNumber": "AA6624",
+        "airline": " Air Asia",
+        "departureAirportCode": "MAA",
+        "departureTime": "406PM",
+        "arrivalAirportCode": "IXL",
+        "arrivalTime": "451PM",
+        "amount": 196,
+        "numberOfPassengers": 2,
+        "travelClass": "Y",
+        "dateOfFlight": "2023-05-28",
+        "customerName": null,
+        "customerPhone": null,
+        "userID": null
+    }
+]
+
+
+
+
+
+3. api for booking flight
+
+url-http://localhost:1995/cleartravel.com/bookflight
+
+method-post
+
+body-
+{
+        "flightNumber": "AA6624",
+        "airline": " Air Asia",
+        "departureAirportCode": "MAA",
+        "departureTime": "406PM",
+        "arrivalAirportCode": "IXL",
+        "arrivalTime": "451PM",
+        "amount": 500,
+        "numberOfPassengers": 4,
+        "travelClass": "Y",
+        "dateOfFlight": "2023-05-28",
+        "customerName": "Spandan Palai, Abhishek Baral, Satyam behera, kishan Mandal",
+        "customerPhone": "9439408040",
+        "userID": "INDI345"
+    }
+	
+response-
+{
+    "bookingId": 52,
+    "flightNumber": "AA6624",
+    "legNumber": "1",
+    "dateOfFlight": "2023-05-28",
+    "seatNumber": "1D,2E,3A,4E",
+    "customerName": "Spandan Palai, Abhishek Baral, Satyam behera, kishan Mandal",
+    "customerPhone": "9439408085",
+    "userId": "INDI345"
+}
+
+
+4. Api to get all users
+url- http://localhost:1995/cleartravel.com/users
+response-
+[
+    {
+        "id": "INDI345",
+        "name": "Abhsihek Baral",
+        "email": "abhishekbaral@gmail.com",
+        "psswd": "****bala***",
+        "bookingList": [
+            {
+                "bookingId": 1,
+                "flightNumber": "AA6624",
+                "legNumber": "1",
+                "dateOfFlight": "2023-05-28",
+                "seatNumber": "1F2B",
+                "customerName": "Spandan Palai, Abhishek Baral",
+                "customerPhone": "9439408040",
+                "userId": "INDI345"
+            },
+            {
+                "bookingId": 2,
+                "flightNumber": "AA6624",
+                "legNumber": "1",
+                "dateOfFlight": "2023-05-28",
+                "seatNumber": ",1A,2F,3D",
+                "customerName": "Spandan Palai, Abhishek Baral",
+                "customerPhone": "9439408040",
+                "userId": "INDI345"
+            },
+            {
+                "bookingId": 3,
+                "flightNumber": "AA6624",
+                "legNumber": "1",
+                "dateOfFlight": "2023-05-28",
+                "seatNumber": ",1C,2F,3F,4A",
+                "customerName": "Spandan Palai, Abhishek Baral, Satyam behera, kishan Mandal",
+                "customerPhone": "9439408040",
+                "userId": "INDI345"
+            },
+            {
+                "bookingId": 52,
+                "flightNumber": "AA6624",
+                "legNumber": "1",
+                "dateOfFlight": "2023-05-28",
+                "seatNumber": "1D,2E,3A,4E",
+                "customerName": "Spandan Palai, Abhishek Baral, Satyam behera, kishan Mandal",
+                "customerPhone": "9439408085",
+                "userId": "INDI345"
+            },
+            {
+                "bookingId": 102,
+                "flightNumber": "AA6624",
+                "legNumber": "1",
+                "dateOfFlight": "2023-05-28",
+                "seatNumber": "1D,2D,3B,4C",
+                "customerName": "Spandan Palai, Abhishek Baral, Satyam behera, kishan Mandal",
+                "customerPhone": "9439408089",
+                "userId": "INDI345"
+            }
+        ]
+    }
+]

@@ -1,0 +1,32 @@
+.login-container {
+    width: 50%;
+    margin-left: 30%;
+    margin-top: 5%;
+
+    .app-head {
+        display: flex;
+        justify-content: center;
+
+        .header {
+            color: #F11919;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+
+    .login-wrap {
+        .form-group {
+            margin-top: 20px;
+        }
+
+        .login-button {
+            border-radius: 20px;
+            background-color: #009999;
+            border-color: #009999;
+            width: 72%;
+            margin-top: 20%;
+            margin-left: 15%;
+        }
+    }
+
+}
